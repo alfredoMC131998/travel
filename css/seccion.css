@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+.contenedor-rigth,.contenedor-left{
+    padding-top: 3em;
+    width: 50%;
+}
+.contenedor-rigth img{
+    width: 80%;
+    padding-left: 10%;
+    height: 20em;
+}
+
+.contenedor-left{
+    font-family: 'Nunito';
+}
+
+.title h1{
+   padding-top: 1em;
+   font-weight: 100;
+   font-size:2.3em;
+   font-family: 'Nunito';
+   text-align: center;
+}
+
+.nav-list{
+    font-size: 1.2em;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.list-item li:first-child{
+    border-bottom: 3px solid #01b3a7;  
+}
+
+/*    PARA EL JS
+.list-item li:nth-child(3){
+    border-bottom: 3px solid #01b3a7;
+}
+
+li:nth-child(3) a{
+    color: #01b3a7;
+}
+*/
+
+.nav-list-item{
+    padding: 0 30px;
+    border-bottom: 3px solid #e1e1e1;  
+}
+
+
+.nav-list-item a{
+    text-decoration: none;
+    color:#6f6f6f;
+}
+
+.nav-list li:first-child a{
+    color: #01b3a7;
+}
+
+.nav-list-item a:hover{
+    color: #01b3a7;
+}
+
+.info-item p{
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    color:#6f6f6f;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.read-more{
+    outline: 2px solid #6f6f6f;
+    color: #464646;
+    padding: .5em 1em;
+    text-decoration: none;
+    transition: background .5s;
+    transition: color .5s;
+}
+
+.read-more:hover{
+    outline: inherit;
+    color: #fff;
+    background: #01b3a7;
+}
+
+@media (max-width: 960px ){
+    .contenedor-rigth,.contenedor-left{
+        width: 100%;
+    }
+    
+    .nav-list{
+        font-size: 1em;
+    }
+}

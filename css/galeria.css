@@ -1,0 +1,26 @@
+
+.contenedor-galeria{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.galeria-imagen{
+    width: 35em;
+    height: 30em;
+    margin-top: 5%;
+}
+
+.uno{
+    background-image: url(../media/g1.jpg);
+    background-size: cover;
+    background-position:center center;
+}
+
+.dos{
+    background-image: url(../media/g2.jpg);
+    background-size:cover;
+    background-position:center center;
+}

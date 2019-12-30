@@ -1,0 +1,52 @@
+.contenedor-numeros{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url(../media/agua.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    animation: movimiento 30s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes movimiento{
+    from{
+       background-position: bottom left;
+    }to{
+       background-position: top; 
+    }
+}
+
+.caja-numero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 17em;
+    height: 15em;
+    border: 4px solid #fff;
+}
+
+.box{
+    color: #fff;
+    font-size: 4em;
+}
+
+.counter{
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #fff;
+}
+
+.counter-text{
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-bottom: 1em;
+    color: #fff;
+}
